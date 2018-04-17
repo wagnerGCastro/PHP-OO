@@ -18,7 +18,7 @@ class AssociacaoCliente {
           * TRUE - Raw 16 character binary format
           * FALSE - Default. 32 character hex number
           * */
-         $this->Cliente = md5($Nome);  //cliente id
+         $this->Cliente = md5($Nome);  
          $this->Nome = $Nome;
          $this->Email = $Email;
      }

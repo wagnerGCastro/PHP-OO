@@ -3,7 +3,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Modelo de Composição</title>
   </head>
   <body>
   <?php

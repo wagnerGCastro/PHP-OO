@@ -15,7 +15,6 @@ class AcessoProtegido {
     private $Idade;
     protected $Email;
 
-
     function __construct($Nome, $Idade, $Email) {
         $this->Nome = $Nome;
         $this->setEmail($Email);
@@ -35,7 +34,6 @@ class AcessoProtegido {
     final protected function setNome($Nome) {
         $this->Nome = $Nome;
     }
-    
     
     // acesso somente pela propria classe, não pode ser acessado pelo Obejto 
     // e nem pelas class filhas
@@ -57,20 +55,15 @@ class AcessoProtegido {
 
 // nova class de exemplo
 class AcessoProtegidoFilha extends AcessoProtegido {
-    
     protected $CPF;
-    
     // não é mais permitido reescrever, metodo pai pois esta com final,
     /*
     public function setNome() {
         echo 'Consegui';
     }
     */
-    
     public function AddCpf($Nome, $Cpf) {
         parent::setNome($Nome);
         $this->CPF = $Cpf;
     }
- 
-
 }

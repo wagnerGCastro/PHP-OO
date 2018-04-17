@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Agregação</title>
+        <title>Modelo Agregação</title>
     </head>
     <body>
         <?php
@@ -14,16 +14,11 @@
          * Porque ao informar um objeto que não foi solicitado a clase, vai indentificar que esse ojeto não tem acesso.
          * */
         require('./inc/Config.inc.php');
-        
         // estanciando objetos
-        
         $cliente = new AssociacaoCliente('wagner', 'wagner@hotmail.com');
-        
         $prodPHP = new AgregacaoProduto(20, 'Pro PHP', 25.10);
         $prodCSS = new AgregacaoProduto(21, 'CSS', 20.10);
-        
         $outrocurso = new stdClass();
-        
         $carrinho = new AgregacaoCarrinho($cliente);
         
         // atribuição dos objetos
@@ -36,11 +31,8 @@
         //$carrinho->addCarrinho($outrocurso);
         
         $carrinho->removeCarrinho($prodCSS);
-        
-        
-        
+
         // debug
-        
         echo "<pre>";
         print_r($cliente);
         echo "</pre> <hr>";

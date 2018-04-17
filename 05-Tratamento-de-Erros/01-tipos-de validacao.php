@@ -10,7 +10,7 @@
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>Tratamento de Erros</title>
+        <title>Tipos de Validação</title>
         <link rel="stylesheet" type="text/css" href="css/reset.css" />
         <link rel="shortcut icon" type="image/ico" href="http://www.datatables.net/favicon.ico">
 
@@ -162,7 +162,6 @@
         <script type="text/javascript" src="../assets/js/jquery-3.0.0.min.js"></script>
         <script type="text/javascript" src="../assets/framework/bootstrap-3.3.7/js/bootstrap.min.js"></script> 
         <script type="text/javascript" src="../assets/framework/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script> 
-
         <script type="text/javascript" src="../assets/js/controller.js"></script>
     </body>
 </html>

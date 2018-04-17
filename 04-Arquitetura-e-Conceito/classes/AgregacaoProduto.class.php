@@ -12,7 +12,6 @@ class AgregacaoProduto {
        $this->Valor   = $Valor;
     }
     
-    
     // geteres
     public function getProduto() {
         return $this->Produto;
@@ -26,5 +25,4 @@ class AgregacaoProduto {
         return $this->Valor;
     }
 
-    
 }

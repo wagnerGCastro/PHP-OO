@@ -7,7 +7,6 @@
  * manipular eses objetos que vão entrar na nossa classe
  */
 class AgregacaoCarrinho {
-
     private $Cliente;
     private $Produto;
     private $Total;
@@ -19,7 +18,6 @@ class AgregacaoCarrinho {
         $this->Cliente = $Cliente;
         $this->Produto = array();
     }
-    
     
     // metodos 
     public function addCarrinho(AgregacaoProduto $Produto){
@@ -48,7 +46,6 @@ class AgregacaoCarrinho {
         $this->Total += $Total;
     }
 
-        
     // geters
     public function getCliente() {
         return $this->Cliente;
@@ -61,7 +58,4 @@ class AgregacaoCarrinho {
     public function getTotal() {
         return $this->Total;
     }
-
-
-
 }

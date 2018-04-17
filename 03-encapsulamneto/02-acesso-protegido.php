@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title> </title>
+        <title> Acesso Protegido </title>
     </head>
     <body>
         <?php
@@ -18,13 +18,10 @@
         
         /* erro! metodo do Objeto está protegido, não pode setar direto  */
         //$maria->setNome('wagner');
-        
-        
-        
+
         echo "<hr> <pre>";
         print_r($maria);
         echo "</pre> <hr>";
-        
         
         //----------------------------------------------------------//
         $pablo = new AcessoProtegidoFilha('pablo', 29, 'pablo@hotmail.com');
@@ -32,12 +29,9 @@
         $pablo->AddCpf('pablo', 105189891656);
         $pablo->ValidaIdade(32);
         
-        
         echo "<hr> <pre>";
         print_r($pablo);
         echo "</pre> <hr>";
-        
-       
         ?>
     </body> 
 </html>

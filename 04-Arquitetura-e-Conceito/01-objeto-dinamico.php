@@ -7,8 +7,6 @@
     <body>
         <?php
         require('./inc/Config.inc.php');
-
-
         /* como não tem comportamnto inical só estancia o objeto   */
         $cliente = new ObjetoDinamico;
         
@@ -31,8 +29,6 @@
         $fagner = clone $wagner;
         $fagner->Nome = 'Fagner';
         $fagner->Email = 'fagner@hotmail.com';
-        
-        
         
         echo "<hr> <pre>";
         print_r($cliente);

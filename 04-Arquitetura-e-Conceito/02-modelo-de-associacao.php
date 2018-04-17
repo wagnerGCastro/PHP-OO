@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Modelo de Associação</title>
     </head>
     <body>
         <?php
@@ -16,8 +16,6 @@
           echo "FALSE - 32 character hex number: ".md5($str)."<br>";
 
          */
-
-
         /**
          * ASSOCIACAO de Objetos.
          * Conceito: ao invés de ter 2 classes, e herdar a outra, vai ser associada a outra
@@ -37,16 +35,14 @@
 
         /*
           if($login->getLogin()){
-          echo " Gerenciando o cliente id: {$login->Cliente->getCliente()} <br> ";
-          echo "{$login->Cliente->Nome} logou com sucesso usando o e-mail {$login->Cliente->Email} <br>";
+                echo " Gerenciando o cliente id: {$login->Cliente->getCliente()} <br> ";
+                echo "{$login->Cliente->Nome} logou com sucesso usando o e-mail {$login->Cliente->Email} <br>";
           }
           else {
-          echo "Erro ao logar ";
+                echo "Erro ao logar ";
           }
 
-
          *///AQUI SÓ ACESSA SEM CLIENTE PRIVATE NO ASSOCIACAOLOGIN()
-
 
         if ($login->getLogin()) {
             echo " Gerenciando o cliente id: {$login->getCliente()->getCliente()} <br> ";
@@ -55,12 +51,9 @@
             echo "Erro ao logar ";
         }
 
-
         //$cliente = new AssociacaoCliente('wagner') ;  
         //$cliente->Nome = 'wagner';
         //$cliente->Email = 'wagner@htomail.com';
-
-
 
         echo "<hr> <pre>";
         print_r($fagner);
