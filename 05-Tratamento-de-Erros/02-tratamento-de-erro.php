@@ -7,7 +7,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Tratamento de Erros</title>
   </head>
   <body>
     <?php
@@ -17,9 +17,7 @@
      * personalizando erros do usuario, como também erros do sitema
      * como rumtime_erro e compary_time_erro
     */
- 
-   
-    
+
     $uso = '12345678911'; // 11 caractere
     $cpf = '';
     $cpf = '500';
@@ -57,9 +55,6 @@
     }
     
     echo ":)" ;
-
-    
-
     echo "<hr>" ;
     
     /** função para personalização de erros **/
@@ -75,8 +70,6 @@
       endif;
     }
     
-    
-    
     //set_error_handler (PHP 4> = 4.0.1, PHP 5) 
     //Define a função de manipulador de erro definida pelo usuário
     set_error_handler('Erro');
@@ -87,8 +80,6 @@
     $cpf = $uso;
    // $cpf = "abs";
    // $cpf = '12345678912';
-    
-   
     
   if(!$cpf){  //igual a branco
   
@@ -120,7 +111,6 @@
     }
     
     echo ":)" ;
-  
     
     ?>
   </body>

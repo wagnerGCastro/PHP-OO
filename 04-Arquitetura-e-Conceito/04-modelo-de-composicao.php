@@ -7,7 +7,6 @@
   </head>
   <body>
   <?php
-    
     /**
      * MODELO DE COMPOSIÇÃO.
      * Permite criar objetos dentro de outras classes

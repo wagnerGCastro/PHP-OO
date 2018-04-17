@@ -10,7 +10,6 @@
         <?php
         require_once ('./_app/Config.inc.php');
 
-
         echo "TRATAMENTO DE ERROS";
 
         trigger_error('Essa é uma NOTICE', E_USER_NOTICE);

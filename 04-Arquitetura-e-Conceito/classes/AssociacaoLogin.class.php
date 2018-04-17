@@ -18,7 +18,6 @@ class AssociacaoLogin {
         else:
             die('Erro ao logar');
         endif; 
- 
     }
     
     public function getLogin(){
