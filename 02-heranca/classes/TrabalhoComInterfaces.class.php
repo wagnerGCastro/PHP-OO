@@ -27,11 +27,9 @@ class TrabalhoComInterfaces implements IAluno  {
     
     public function Formar() {
         $this->setFormacao[] = $this->getCurso() ;
-   
         echo "{$this->getAluno()} se formou em {$this->getCurso()} ";
     }
 
-    
     // seters
     public function setAluno($Aluno) {
         $this->Aluno = $Aluno;
@@ -58,7 +56,4 @@ class TrabalhoComInterfaces implements IAluno  {
     public function getFormacao() {
         return $this->Formacao;
     }
-
-    
-
 }

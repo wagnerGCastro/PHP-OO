@@ -57,6 +57,5 @@
     function getFormacao() {
         return $this->Formacao;
     }
-
     
   } //end class

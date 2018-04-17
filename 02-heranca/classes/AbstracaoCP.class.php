@@ -22,7 +22,6 @@ class AbstracaoCP extends AbstracaoCC {
         echo "<small style='color:#f0c'> Valor do Deposito: {$this->Real($valor)} || Rendimentos: {$juro }</small> <br>";
     }
     
-    
     /* geters
     -----------------------------------------------------------------------*/
     public function getRendimento(){

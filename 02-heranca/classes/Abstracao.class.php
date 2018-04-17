@@ -5,7 +5,6 @@
  * Pode ter dentro desta class Abstrata (metodos Abstratos, classes, metodos finais)
  */
 Abstract class Abstracao {
-
     private $Cliente;
     public $Conta;
     private $Saldo;
@@ -53,8 +52,7 @@ Abstract class Abstracao {
      * ou seja as classes filhas são obrigadas a ter esse metodo VerSaldo();
      */
     abstract public function VerSaldo();
-           
-
+        
     /* seters
     -----------------------------------------------------------------------*/
     public function setCliente($Cliente) {
@@ -69,8 +67,6 @@ Abstract class Abstracao {
         $this->Saldo += (float) $Saldo;
     }
 
-     
-
     /* geters
     -----------------------------------------------------------------------*/
     public function getCliente() {
@@ -84,6 +80,5 @@ Abstract class Abstracao {
     public function getSaldo() {
         return $this->Saldo;
     }
-
 
 }

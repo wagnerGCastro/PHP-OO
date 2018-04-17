@@ -44,7 +44,6 @@ class HerancaJuridica extends Heranca {
     function setFuncionario($Funcionario) {
         $this->Funcionario = $Funcionario;
     }
-    
 
     /* geters
     -----------------------------------------------------------------------*/
@@ -56,6 +55,4 @@ class HerancaJuridica extends Heranca {
         return $this->Funcionario;
     }
 
-
- 
 } //end class

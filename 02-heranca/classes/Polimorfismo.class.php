@@ -28,7 +28,6 @@ class Polimorfismo {
         return "R$ " . number_format($Valor, '2', '.', ',');
     }
 
-    
     /* seters
     ----------------------------------------------------------------------- */
     public function setProduto($Produto) {
@@ -43,8 +42,6 @@ class Polimorfismo {
         $this->Metodo = $Metodo;
     }
 
-      
-    
     /* geters
     ----------------------------------------------------------------------- */
     public function getProduto() {
@@ -58,6 +55,5 @@ class Polimorfismo {
     public function getMetodo() {
       return $this->Metodo;
     }
-
 
 }

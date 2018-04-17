@@ -26,21 +26,16 @@ class PolimorfismoDeposito extends Polimorfismo {
       parent::Pagar();
     }
     
-    
-    
-     /* seters
+    /* seters
     -----------------------------------------------------------------------*/
     public function setDesconto($Desconto) {
         $this->Desconto = $Desconto;
     }
     
-    
-     /* geters
+    /* geters
     -----------------------------------------------------------------------*/
     public function getDesconto() {
       return  $this->Desconto;
     }
-    
-    
 
 } //end class

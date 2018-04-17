@@ -11,7 +11,6 @@ class ResolucaoDeEscopoDigital extends ResolucaoDeEscopo  {
     function __construct($Produto, $Valor) {
         parent::__construct($Produto, $Valor);
     }
-  
     
     // metodos do objeto
     public function Vender(){
@@ -24,12 +23,8 @@ class ResolucaoDeEscopoDigital extends ResolucaoDeEscopo  {
         self::$Digital = $Digital;
     }
 
-        
     // geters
     public static function getDigital() {
         return self::$Digital;
     }
-
-
-    
 }

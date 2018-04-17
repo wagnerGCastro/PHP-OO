@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
     <title> TRABALHO COM INTERFACES </title>
-    
   </head>
   <body>
     <?php
@@ -14,14 +12,10 @@
     $aluno = new TrabalhoComInterfaces('Wagner', 'PHP');
     $aluno->Matricular('HTML');
     $aluno->Formar();
-   
-
-   echo "<hr> <pre>";
-   print_r($aluno);
-   echo "</pre> <hr>";
-   
-   
-    
+  
+    echo "<hr> <pre>";
+    print_r($aluno);
+    echo "</pre> <hr>";
     ?>
   </body>
 </html>

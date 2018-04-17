@@ -2,13 +2,11 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title> Concetos de Herença </title>
+        <title> Concetos de Herança </title>
     </head>
     <body>
-
         <?php
         // Na herança consegue herdar o código pronto(atributos, metodos da classe)
-        
         require('./inc/Config.inc.php');
         
         $pessoa = new Heranca('wagner', 31);
@@ -17,10 +15,9 @@
         $pessoa->Envelhecer();
         $pessoa->VerPessoa();
         
-        
         $pessoaME = new HerancaJuridica('Joao', 42, 'JS Pneus');
-        $pessoaME->Formar('Pro PHP');
-        $pessoaME->Formar('WS PHP');
+        $pessoaME->Formar('PHP');
+        $pessoaME->Formar('JAVASCRIPT');
         $pessoaME->Envelhecer();
         $pessoaME->VerPessoa();
         $pessoaME->Contratar('Marcos');
@@ -34,7 +31,6 @@
         print_r($pessoaME);
         echo"<br> <hr width='50%' align='left'> </hr>";
         ?>
-
     </body>
 </html>
 

@@ -11,10 +11,9 @@
     // Exemplo de conta_bancaria (onde vai ter uma genérica,
     // para ser herdada pela conta corrente  e conta poupança).
 
-
     require('./inc/Config.inc.php');
 
-    /* depois de torna a class abstracao em abstract( não pode mais instanciar a classe.*/
+    //depois de torna a class abstracao em abstract( não pode mais instanciar a classe
 
     /*
       $conta1 = new Abstracao('Fagner', 2500);
@@ -38,7 +37,6 @@
     $cc = new AbstracaoCC('Wagner', 0, 1000);
     $cp = new AbstracaoCP('Robson', 0);
 
-    
     $cc->Depositar(1000);
     $cc->Sacar(500);
     $cc->Transferir(500, $cp);

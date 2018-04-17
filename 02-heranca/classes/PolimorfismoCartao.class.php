@@ -74,5 +74,4 @@ class PolimorfismoCartao extends Polimorfismo {
       return $this->NumParcelas;
     }
 
-
 } //end class

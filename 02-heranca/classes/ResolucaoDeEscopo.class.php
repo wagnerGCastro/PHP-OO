@@ -17,8 +17,6 @@ class ResolucaoDeEscopo {
         $this->Valor = (float) $Valor;
     }
     
-    
-    
     //metodos do objeto, será manipulado por qualquer objeto que estanciar a classe
     public function Vender(){
         self::setVendas( self::getVendas() + 1);
@@ -40,7 +38,6 @@ class ResolucaoDeEscopo {
         echo "Este produto vendeu ". self::getVendas() ." unidade(s). Total R$ ".self::getLucros();
         echo "</hr>";
     }
-    
     
     // seters
     public static function setVendas($Vendas) {
@@ -67,10 +64,5 @@ class ResolucaoDeEscopo {
 
     public static function getLucros() {
         return self::$Lucros;
-    }
-    
-    
-
-
-    
+    } 
 }

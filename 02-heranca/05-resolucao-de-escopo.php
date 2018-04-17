@@ -3,12 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title> Operador de resoluçao de escopo </title>
-
     </head>
     <body>
         <?php
-        
-        
         /**
          * Operador de resolucao Escopo serve para acessar a classe
          * diretamente os membros da c de fora dela.
@@ -33,13 +30,11 @@
          $digital->Vender();
          $digital->Vender();
      
-         
          $produto->Relatorio();
          
          // exemplo de resolução de escopo (static) acessa  diretamente os membros da classe
          // neste acessou diretamente o metodo Relatorio()
          ResolucaoDeEscopo::Relatorio();
-         
          
          // neste acessou diretamente o atributo da clasee ResolucaoEscopo;
          echo " <br> O produto {$produto->getProduto()}  vendeu ". ResolucaoDeEscopo::getVendas();
@@ -47,7 +42,6 @@
          echo "<br>" . ResolucaoDeEscopoDigital::$Digital . " Livro(s) Digital(is) <br>";
   
          echo ResolucaoDeEscopo::getVendas() - ResolucaoDeEscopoDigital::getDigital() . " Livros Impressoss";
-         
         //debug
         echo "<hr> <pre>";
         print_r($produto);
