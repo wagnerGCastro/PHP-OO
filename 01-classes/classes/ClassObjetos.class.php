@@ -1,10 +1,6 @@
 ﻿<?php
-  
- // 3 elementos: atributos, metodos, paramentros
-
 
   class ClassObjetos {
-      
       // Atributos da classe  // são as caracteristicas das classes
       var $Class;
       Var $Funcao;
@@ -13,7 +9,6 @@
      // Define os comportamentos da classe
       function getClass($Class, $Funcao){
           echo "<pre> A Classe {$Class} serve para {$Funcao} </pre>";
-         
       }
       
       function verClass(){

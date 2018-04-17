@@ -1,6 +1,5 @@
 ﻿<?php
 /* EMPRESA E SALARIO SERÃO ULTILIZADOS PARA INTERAÇÃO DO OBJETO */
-
 class InteracaoClasse {
     private $Nome;
     public $Idade;
@@ -29,7 +28,6 @@ class InteracaoClasse {
     public function setNome($Nome) {
         $this->Nome = $Nome;
     }
-
 } //end class
 
   

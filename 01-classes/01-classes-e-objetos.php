@@ -11,19 +11,13 @@
         <link rel="stylesheet" type="text/css" href="../assets/css/@font-face.css" />
         <link rel="stylesheet" type="text/css" href="../assets/css/@responsive.css" />
         <link rel="stylesheet" type="text/css" href="../assets/css/index.css" />
-
     </head>
     <body>
         <div class="container">
-
-            <!-- Tabs -->
-            <h2 class="demoHeaders">Tabs</h2>
-
+            <h2 class="demoHeaders">Classes</h2>
             <div id="tabs">
                 <ul>
                     <li><a href="#tabs-1">ClassObjetos</a></li>
-                    <li><a href="#tabs-2">Second</a></li>
-                    <li><a href="#tabs-3">Third</a></li>
                 </ul>
                 <div id="tabs-1">
                     <?php
@@ -37,11 +31,7 @@
                         $teste->verClass();
                       ?>
                 </div>
-                <div id="tabs-2"></div>
-                <div id="tabs-3"></div>
             </div>
-
-
         </div> <!-- end container -->
         <!-- Javascript -->
         <script type="text/javascript" src="../assets/js/jquery-3.0.0.min.js"></script>

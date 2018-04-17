@@ -22,7 +22,6 @@
     //TAMBÉM É UM CORPORTAMNETO PADRÃO PARA QU A MEMORIA FIQUE MAIS RÁPIDA
     function __destruct() {
       echo "Objeto {$this->Nome} foi destruído ! \n";
-
     }
 
     function  ver() {

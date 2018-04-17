@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="${project.encoding}" >
-  <tilte> </title>
+  <tilte>Carga Automatica </title>
 </head>
 
 <body>
@@ -18,27 +18,20 @@
   $classeC = new ComportamentoInicial('Wagner', 27,'Programador',2200  );
   $classeB = new AtributosMetodos;
 
-  
-  
-  
-//AQUI EXIBE OS RESULTADOS
- echo"<br> <hr width='50%' align='left'> </hr>";
+  //AQUI EXIBE OS RESULTADOS
+  echo"<br> <hr width='50%' align='left'> </hr>";
  
- echo "<pre>";
- print_r($classeA);
- echo"<br> <hr width='50%' align='left'> </hr>";
- 
- echo "<pre>";
- print_r($classeB);
- echo"<br> <hr width='50%' align='left'> </hr>";
- 
- echo "<pre>";
- print_r($classeC);
- echo"<br> <hr width='50%' align='left'> </hr>";
- 
- 
+  echo "<pre>";
+  print_r($classeA);
+  echo"<br> <hr width='50%' align='left'> </hr>";
 
- 
+  echo "<pre>";
+  print_r($classeB);
+  echo"<br> <hr width='50%' align='left'> </hr>";
+
+  echo "<pre>";
+  print_r($classeC);
+  echo"<br> <hr width='50%' align='left'> </hr>";
 ?>
 </body>
 </html>

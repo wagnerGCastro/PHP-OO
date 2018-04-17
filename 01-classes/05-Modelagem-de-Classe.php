@@ -14,18 +14,15 @@
     require('./classes/ModelagemDeClasse.class.php');
     
     $wagner = new ModelagemDeClasse('wagner', 31, 'Consultor', 1500.62);
-   
     $wagner->setProfissao('Programador');
     $wagner->Trabalhar('portal', 56.89);
     $wagner->Trabalhar('chat', 456.89);
-    
     
     // debug 
     echo "<hr>";
     echo "<pre>";
     print_r($wagner);
     echo "</pre>";
-    
     
     echo "<pre>";
     var_dump($wagner);

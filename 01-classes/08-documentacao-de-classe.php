@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="${project.encoding}" >
-  <tilte> </title>
+  <tilte>Documentacão De Classe </title>
 </head>
 
 <body>
@@ -15,12 +15,8 @@
 
   require('./inc/Config.inc.php');
   
-  $documentar = new DocumentacaoDeClasse('UPINSIDE');
-  $documentar->
+  $documentar = new DocumentacaoDeClasse('WEB TECNOLOGIA');
 
-  
-  
-  
 //AQUI EXIBE OS RESULTADOS
  
  echo "<pre>";

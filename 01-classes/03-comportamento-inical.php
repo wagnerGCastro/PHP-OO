@@ -1,15 +1,11 @@
 ﻿<html lang="pt-br">
-
 <head>
 	<meta charset="${project.encoding}" >
   <tilte> </title>
 </head>
-
 <body>
 <?php
-	 
-	require('./classes/ComportamentoInical.class.php');
-
+	require('./classes/ComportamentoInicial.class.php');
 	// todos os comportamentos inical dos metodos recebem null
 	//$wagner = new ComportamentoInical; 
 	//$wagner->ver();
@@ -32,20 +28,20 @@
 	*/
 
 	//AQUI MUDANDO O COMPORTAMNETO INICAL
-	$fagner = new ComportamentoInical('Fagner' , 'banana' , 'Prog' , 'R$ 1600,00');
+	$fagner = new ComportamentoInicial('Fagner' , 'banana' , 'Prog' , 'R$ 1600,00');
 	$fagner-> ver();  // apresenta variavies com zero , porque foram incorretas ao tipo de dado definido
 
 	$fagner->Idade = 29 ;
 	$fagner->Salario = 1500.15 ;
 	$fagner->ver();  // agora inseridos certo como tipo de dado definido
 
-        //NOVOS OBJETOS
-	$wagner = new ComportamentoInical('Wagner' , '30' , 'Logistica' , 'R$ 1200,0');
-	$amanda = new ComportamentoInical('Amanda' , 'banana' , 'Empresaria' , 'R$ 2600,0');
+    //NOVOS OBJETOS
+	$wagner = new ComportamentoInicial('Wagner' , '30' , 'Logistica' , 'R$ 1200,0');
+	$amanda = new ComportamentoInicial('Amanda' , 'banana' , 'Empresaria' , 'R$ 2600,0');
 
 	//  Aqui para baixo a memoria esta limpa 
 	$wagner-> ver(); 
-        
+
 ?>
 </body>
 </html>

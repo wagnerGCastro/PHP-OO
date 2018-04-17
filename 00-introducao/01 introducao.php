@@ -9,14 +9,13 @@
         <link rel="stylesheet" type="text/css" href="../assets/framework/jquery-ui-1.12.1.custom/jquery-ui.min.cs" />
         <link rel="stylesheet" type="text/css" href="../assets/css/@font-face.css" />
         <link rel="stylesheet" type="text/css" href="../assets/css/@responsive.css" />
-        <link rel="stylesheet" type="text/css" href="../assets/css/index.cs" />
     </head>
     <body>
         <div class="container">
-            <h2 class="demoHeaders">Tabs</h2>
+            <h2 class="demoHeaders">Introdução</h2>
             <div id="tabs">
                     <ul>
-                        <li><a href="#tabs-1">First</a></li>
+                        <li><a href="#tabs-1">Verifica a Vesão</a></li>
                         <li><a href="#tabs-2">Info PHP</a></li>
                     </ul>
                     <div id="tabs-1">

@@ -1,9 +1,5 @@
 ﻿<?php
-
- // 3 elementos:atributos, metodos, paramentros
-
   class AtributosMetodos {
-    
       var $Nome;
       var $Idade;
       var $Profissao;
@@ -37,7 +33,6 @@
       function Envelhecer(){
           $this->Idade = $this->Idade + 1;
       }
-      
       
   } //end class
   	
