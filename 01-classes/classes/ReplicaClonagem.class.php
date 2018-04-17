@@ -5,7 +5,6 @@
    * Descricao
    * @copyright (C) year, Wagner
   */
-
 class ReplicaClonagem {
     var $Tabela; 
     var $Termos;

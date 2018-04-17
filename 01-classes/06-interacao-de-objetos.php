@@ -2,9 +2,8 @@
 ﻿<html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Modelagem de classe </title>
+        <title>Interacão de Classe </title>
     </head>
-
     <body>
         <?php
         /*
@@ -47,7 +46,6 @@
         print_r($web);
         echo "<pre>";
         echo"<br> <hr width='50%' align='left'> </hr>";
-        
         ?>
     </body>
 </html>

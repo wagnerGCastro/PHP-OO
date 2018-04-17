@@ -1,7 +1,7 @@
 ﻿<html lang="pt-br">
 <head>
 	<meta charset="${project.encoding}" >
-  <tilte> </title>
+  <tilte>Comportamento Inicial</title>
 </head>
 <body>
 <?php
@@ -41,7 +41,6 @@
 
 	//  Aqui para baixo a memoria esta limpa 
 	$wagner-> ver(); 
-
 ?>
 </body>
 </html>

@@ -2,7 +2,6 @@
 /* EMPRESA E SALARIO SERÃO ULTILIZADOS PARA INTERAÇÃO DO OBJETO */
 
 class InteracaoDeObjetos {
-
     public $Empresa;
     public $Setores;
 

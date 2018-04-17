@@ -17,7 +17,6 @@
     $wagner->setProfissao('Programador');
     $wagner->Trabalhar('portal', 56.89);
     $wagner->Trabalhar('chat', 456.89);
-    
     // debug 
     echo "<hr>";
     echo "<pre>";
@@ -27,7 +26,6 @@
     echo "<pre>";
     var_dump($wagner);
     echo "</pre>";
-    
     ?>
 </body>
 </html>

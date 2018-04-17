@@ -1,7 +1,7 @@
 ﻿<html lang="pt-br">
 <head>
 	<meta charset="${project.encoding}" >
-  <tilte> </title>
+  <tilte>Replica e Clonagem </title>
 </head>
 <body>
 <?php

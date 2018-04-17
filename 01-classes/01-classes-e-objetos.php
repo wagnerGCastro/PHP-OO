@@ -4,17 +4,16 @@
         <meta charset="utf-8">
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title></title>
+        <title>Classes e Objetos</title>
         <link rel="stylesheet" type="text/css" href="../assets/framework/bootstrap-3.3.7/css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="../assets/framework/jquery-ui-1.12.1.custom/jquery-ui.min.css" />
-
         <link rel="stylesheet" type="text/css" href="../assets/css/@font-face.css" />
         <link rel="stylesheet" type="text/css" href="../assets/css/@responsive.css" />
         <link rel="stylesheet" type="text/css" href="../assets/css/index.css" />
     </head>
     <body>
         <div class="container">
-            <h2 class="demoHeaders">Classes</h2>
+            <h2 class="demoHeaders">Classes e Objetos</h2>
             <div id="tabs">
                 <ul>
                     <li><a href="#tabs-1">ClassObjetos</a></li>
@@ -22,7 +21,6 @@
                 <div id="tabs-1">
                     <?php
                         require('./classes/ClassObjetos.class.php'); 
-
                         $teste = new ClassObjetos();
                         $teste->getClass('De introdução','mostrar uma classe');
                         $teste->verClass();
