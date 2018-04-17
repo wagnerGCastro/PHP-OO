@@ -1,0 +1,79 @@
+/*
+#/h3 { font:bold 60px/46px 'italiannoregular' ; margin-top: 20px; margin-bottom: 20px;}
+#/h3 { font:bold 60px/46px 'nastyregular' ; margin-top: 20px; margin-bottom: 20px;}
+#/h3 { font:100 60px/46px  'Teko', sans-serif; margin-top: 20px; margin-bottom: 20px;}
+#/h3 { font:800 60px/23px  'poiret_oneregular'; margin-top: 30px; margin-bottom: 30px;}
+#/h3 { font:900 60px/23px  'shrikhandregular'; margin-top: 30px; margin-bottom: 30px;}
+#/h1 { font:800 'esenciaregular'; text-shadow: 4px 4px 4px #999;}
+#/h1 span{  }
+*/
+
+
+/* 
+    Created on : 14/12/2013, 16:41:39
+    Author     : UPINSIDE TREINAMENTO
+*/
+
+
+/**************************************
+************ CSS TRIGGER **************
+**************************************/
+ 
+.trigger{position: relative; padding: 10px; color: #333; background: #ccc; border: 1px solid #333; font:400 14px 'Verdana', sans-serif;}
+.trigger{border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;}
+.trigger .ajax_close{position: absolute; right: 10px; cursor: pointer; top: 10px; background: black; width: 20px; height: 20px; display: none;}
+.trigger.accept{background-color: #E5F8CE; border-color: #D0F1A6;}
+.trigger.infor{background-color: #D1ECF7; border-color: #BCDFEF;}
+.trigger.alert{background-color: #FFF6BF; border-color: #FCEB77;}
+.trigger.error{background-color: #FAD0D0; border-color: #F6ABAB;}
+
+
+
+
+/* RESET
+--------------------------------------------------  */
+* {margin:0; pading:0; font-size: 100%; border:none; outline:none; font-weight:300px;box-sizing: border-box; font:200 10px/12px 'Teko','Tahoma'; }
+
+body,html, #corpo_site, select, option,button, p, span, button, label,
+input[type="date"],input[type="text"], input[type="file"],input[type="password"] {font:800 10x/12px  'esenciaregular';}
+
+/* 
+body {font:800 18px/23px  'poiret_oneregular';}
+body { background: ;}
+h2 {font:800 20px/23px  'poiret_oneregular';}
+h3 {font:800 18px/23px  'poiret_oneregular';}
+h4 {font:800 16px/23px  'poiret_oneregular';}
+h4 {font:800 14px/23px  'poiret_oneregular';}
+a{ text-decoration: none; font:800 15px/23px  'poiret_oneregular'; outline: none !important; text-decoration:none;}
+a:hover{ text-decoration: none !important;}
+a:active {outline-style: none !important;}
+ul{list-style:none;}
+#/img{max-width:100%;}
+input[type="date"]{color: #777; font:800 12px/23px  'poiret_oneregular';}
+
+*/
+
+
+/* Corpo do site
+--------------------------------------------------  */
+
+body { background:#eeeeee;}
+#tabs a[href]{font-size: 10.5px; font-stretch: condensed; text-transform: uppercase; }
+
+.xdebug-var-dump{word-break: break-all;}
+.xdebug-var-dump small{display:none !important}
+.xdebug-var-dump:hover{background: #fdd}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

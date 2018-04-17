@@ -1,0 +1,94 @@
+Operador de Resolução de Escopo (::)Abstração de Classes
+Classes e Objetos
+PHP Manual
+Palavra-Chave 'static'
+
+Declarar membros ou métodos de uma classe como estáticos faz 
+deles acessíveis sem precisar instanciar a classe. 
+Um membro declarados como estático não pode ser acessado com 
+um objeto instanciado da classe (embora métodos estáticos podem).
+
+Por compatibilidade com o PHP 4, se nenhuma declaração de 
+visibilidade for usada, então o membro ou método será 
+tratado como se fosse declarado como public.
+
+Como métodos estáticos podem ser chamados sem uma instância do 
+objeto ter sido criada, a pseudo-variável $this não é 
+disponível dentro do método declarado como estático.
+
+Propriedades estáticas não podem ser acessadas pelo objeto usando o operador seta ->.
+
+Chamar métodos não estáticos de maneira estática gera um aviso de nível E_STRICT.
+
+Como qualquer outra variável estática do PHP, propriedades estáticas podem somente 
+ser inicializadas usando um valor literal ou constante; expressões não são permitidas. 
+Então você pode inicializar uma propriedade estática para um inteiro ou array 
+(por exemplo), você não pode inicializar com outra variável,
+ com um retorno de função, ou um objeto.
+
+No PHP 5.3.0, é possível referenciar a classe usando uma variável. 
+O valor da variável não pode ser uma palavra chave (e.g. self, parent e static).
+
+Exemplo #1 Exemplo de membro estático
+
+<?php
+
+        class Foo
+        {
+            // atributo estatico não precisa estanciar uma classe para chamálo
+            public static $meu_estatico = 'Atributo estatico foo';
+
+            public function valorEstatico() {
+                //não aceita  a pseudo $this, soment a pseudo sef::
+                return self::$meu_estatico;
+            }
+        }
+
+        class Bar extends Foo
+        {
+            public function fooEstatico() {
+                return parent::$meu_estatico;
+            }
+        }
+
+
+        print Foo::$meu_estatico . "<br>";
+
+        $foo = new Foo();
+        print $foo->valorEstatico() . "<br>";
+      //  print $foo->$meu_estatico . "\n";      // "Propriedade" Indefinida $meu_estatico
+
+
+         $classname = 'Foo';
+        print $classname::$meu_estatico . "<br>"; // No PHP 5.3.0
+
+        print Bar::$meu_estatico . "<br>";
+         $bar = new Bar();
+        print $bar->fooEstatico() . "<br>";
+
+        
+        
+       // Exemplo #2 Exemplo de método estático
+
+
+        class Foo1 {
+          // metodo estatico não precisa estanciar uma classe para chamálo
+          public static function umMetodoEstatico() {
+            echo "umMetodoEstatico Foo1 <br>";
+          }
+        }
+
+        Foo1::umMetodoEstatico();
+        $classname = 'Foo1';
+        $classname::umMetodoEstatico(); // No PHP 5.3.0
+?>
+
+
+
+
+
+
+
+
+
+

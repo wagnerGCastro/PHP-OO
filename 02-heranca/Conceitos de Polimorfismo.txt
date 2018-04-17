@@ -1,0 +1,16 @@
+
+Polimorfismo significa varias formas.
+O conceito de Polimorfismo só ocorre na Herança orientada a Objetos.
+
+conceito de Polimorfismo Onde ococrre o evento de OverRide  e OverLoad
+
+Ambos os conceitos vão reescrever os metdos da Classe_Pai .
+
+Só que no Polimorfismo (ou seja no OverRide) vai executar os mesmos metodos
+os mesmos parametros, alterando apenas o comportamento do metodo Pai.
+
+
+
+Polimorfismo (OverLoad) é a sobre carga (sobre reescreve o metodo Pai, neste caso Pagar() ).
+Este evento acontece quando o metodo tem o mesmo nome, mas com parametro e tipos diferentes de retorno.
+Ele realiza a mesma operação do metodo Pai mas de forma diferente.
