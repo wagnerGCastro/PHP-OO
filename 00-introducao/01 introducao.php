@@ -22,15 +22,15 @@
                         <?php
                             if (phpversion() >= 5.4)
                             {
-                                echo phpversion() . '--' . ' Podemos progrmar';
+                               echo ' Podemos progrmar';
                             }
                             else
                             {
-                                echo phpversion() . '--' . ' Preciso atualizar';
+                                echo ' Preciso atualizar';
                             }
                             //echo phpinfo();
                             $inis = ini_get_all();
-                            var_dump($inis);
+                            //var_dump($inis);
                             echo "<hr>"; 
                             //echo date_default_timezone_get();  
                             //$data = new DateTimeZone('America/Sao_Paulo');
